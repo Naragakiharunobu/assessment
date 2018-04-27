@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assessment.css">
+    <title>あなたに似てるアニメキャラ</title>
+</head>
+<body>
+    <h1>あなたに似ているアニメキャラクターは誰でしょう</h1>
+    <p>診断したい名前を入れて下さい</p>
+    <input type="text" id="user-name" size="40" maxlength="20">
+    <button id="assessment">診断する</button>
+    <div id="result-area"></div>
+    <div id="tweet-area">
+       <a href="https://twitter.com/intent/tweet?button_hashtag=あなたに似ているアニメキャラ&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #あなたに似ているアニメキャラ</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <script src="assessment1.js"></script>
+</body>
+</html>
